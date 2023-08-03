@@ -7,14 +7,14 @@ replace (
 	github.com/knative/pkg => github.com/rancher/pkg v0.0.0-20190514055449-b30ab9de040e
 	github.com/matryer/moq => github.com/rancher/moq v0.0.0-20190404221404-ee5226d43009
 
-	k8s.io/client-go => github.com/doflamingo721/client-go v1.26.5-rancher1
+	k8s.io/client-go => github.com/doflamingo721/client-go v1.26.5-rancher2
 )
 
 replace (
-	github.com/rancher/apiserver => github.com/doflamingo721/apiserver v1.26.5-rancher1
-	github.com/rancher/dynamiclistener => github.com/doflamingo721/dynamiclistener v1.26.5-rancher1
-	github.com/rancher/norman => github.com/doflamingo721/norman v1.26.5-rancher1
-	github.com/rancher/wrangler => github.com/doflamingo721/wrangler v1.26.5-rancher1
+	github.com/rancher/apiserver => github.com/doflamingo721/apiserver v1.26.5-rancher2
+	github.com/rancher/dynamiclistener => github.com/doflamingo721/dynamiclistener v1.26.5-rancher2
+	github.com/rancher/norman => github.com/doflamingo721/norman v1.26.5-rancher2
+	github.com/rancher/wrangler => github.com/doflamingo721/wrangler v1.26.5-rancher2
 )
 
 require (
@@ -82,7 +82,7 @@ require (
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
-	github.com/rancher/lasso v0.0.0-20221227210133-6ea88ca2fbcc // indirect
+	github.com/rancher/lasso v0.0.0-20230629200414-8a54b32e6792 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.35.0 // indirect
